@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Background" style="flex-grow: 1; display: flex;">
+        <ui:VisualElement name="WeatherPanel" style="height: 150px; width: 400px; background-color: rgba(0, 0, 0, 0.5); border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 50px;">
+            <ui:VisualElement name="Compass" style="background-image: url(&apos;/Assets/UI/Icons/main_compass.png&apos;); -unity-background-scale-mode: scale-and-crop; width: 150px; height: 152px; align-items: center; justify-content: center; -unity-slice-left: -22; -unity-slice-bottom: -88;">
+                <ui:VisualElement name="Needle" style="flex-grow: 0; background-image: url(&apos;/Assets/UI/Icons/CompassNeedle.png&apos;); height: 90px; width: 35px; position: absolute; top: 26px; left: 57px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

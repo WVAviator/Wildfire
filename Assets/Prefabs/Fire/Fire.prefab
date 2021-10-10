@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6063549892191922801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6063549892191922803}
+  - component: {fileID: 6063549892191922800}
+  - component: {fileID: 7010360442341646600}
+  m_Layer: 0
+  m_Name: Fire
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6063549892191922803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6063549892191922801}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6063549892191922800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6063549892191922801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 622ac4964d870f04a8d44a0607b642cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireStrength: 4
+  firePrefab: {fileID: 6063549892191922800}
+--- !u!114 &7010360442341646600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6063549892191922801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f16776238c4d8b24eb4050b5f6ccc1d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treeFirePrefab: {fileID: 7892093581385745243, guid: 7a51a240cfbc1c542aa3cefbcce684b8, type: 3}
+  brushFirePrefab: {fileID: 7892093581385745243, guid: 3dc10a8aeed738446ab1881b9f7b1a72, type: 3}
+  smokePrefab: {fileID: 8931307204847470928, guid: cf9c076a5fdcf94478a9c9d266b45fa3, type: 3}
+  brushFireDensity: 10
