@@ -242,7 +242,7 @@ MonoBehaviour:
   suppressantFlammabilityReduction: 0.2
   suppressantParticleSystems:
   - {fileID: 6900095374206105770}
-  suppressantType: 0
+  Suppressant: 0
 --- !u!114 &5482262218335709188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,8 +256,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startTurnActions: 2
-  unitImage: {fileID: 21300000, guid: f1f2d99ffc4cc084eb6695d2a2e911c3, type: 3}
-  unitName: Helicopter
+  UnitImage: {fileID: 21300000, guid: af4df35d84a55bf44817c3ce87ab6a4d, type: 3}
+  UnitName: Helicopter
   CurrentHex: {fileID: 0}
   AvailableTurnActions: []
 --- !u!114 &-5014244812588232889
